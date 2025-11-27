@@ -1,41 +1,37 @@
 # AjusteRelatorioDatas.exe / ajuste_relatorio_datas.py
 
-Ferramenta para **atualizar datas em relatórios PDF técnicos**, preservando o layout original.
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Windows](https://img.shields.io/badge/Platform-Windows-blue)
+![PDF](https://img.shields.io/badge/PDF-automation-orange)
 
-- Atualiza **todas as datas** no formato `dd MMM yyyy` (ex: **30 Nov 2025**)
-- Ajusta o **Test Date** para a nova data
-- Ajusta a coluna **Calibration Date (15 posições)** da página 2 para **NOVA DATA - 6 meses**
-- Mantém o layout (apenas sobrescreve o texto das datas, sem mover nada)
+Ferramenta corporativa para **atualizar datas em relatórios PDF técnicos**, preservando o layout original.
 
 ---
 
-## 1. Tecnologias
+## 🚀 Funcionalidades
 
-- Python 3.9+ (testado no Windows)
-- [PyMuPDF (fitz)](https://pymupdf.readthedocs.io/)
+✔ Atualiza **todas as datas** no formato `dd MMM yyyy`  
+✔ Ajusta o **Test Date** para a nova data  
+✔ Ajusta a coluna **Calibration Date (15 posições)** da página 2 para  
+➡️ **NOVA DATA - 6 meses**  
+✔ Não move texto — apenas sobrescreve a data  
+✔ Funciona em **qualquer computador**, sem instalar Python (via EXE)
+
+---
+
+## 🧩 1. Tecnologias
+
+- Python 3.9+
+- PyMuPDF (fitz)
 - python-dateutil
+- GitHub Actions (compilação automática)
 
 ---
 
-## 2. Instalação (modo Python)
+## 📦 2. Instalação (modo Python)
 
 ```bash
 git clone https://github.com/Tricoloreeu/AjusteRelatorioDatas.git
 cd AjusteRelatorioDatas
 pip install -r requirements.txt
-
-python ajuste_relatorio_datas.py
-
-4. Execução pelo EXE (técnicos de campo)
-
-Copie AjusteRelatorioDatas.exe para uma pasta ou pendrive
-
-Coloque o PDF na mesma pasta
-
-Abra o EXE
-
-Digite o nome do PDF (exemplo: input.pdf)
-
-Digite a nova data no formato dd MMM yyyy
-
-O arquivo resultante será output.pdf
