@@ -36,7 +36,7 @@ git clone https://github.com/Tricoloreeu/AjusteRelatorioDatas.git
 cd AjusteRelatorioDatas
 pip install -r requirements.txt
 
-## 🖥️ 3. Execução via Python (modo desenvolvedor)
+## 🖥️ ### 3. Execução via Python (modo desenvolvedor)
 
 Se você deseja rodar a ferramenta diretamente pelo script Python:
 
