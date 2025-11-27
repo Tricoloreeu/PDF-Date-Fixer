@@ -46,3 +46,13 @@ Se você deseja rodar a ferramenta diretamente pelo script Python:
 ```bash
 pip install -r requirements.txt
 
+Execute o comando:
+
+python ajuste_relatorio_datas.py
+Informe o nome do PDF (ex: input.pdf)
+
+Digite a nova data no formato dd MMM yyyy (ex: 30 Nov 2025)
+
+O PDF editado será salvo como: output.pdf
+
+
