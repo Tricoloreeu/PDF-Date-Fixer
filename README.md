@@ -35,3 +35,14 @@ Ferramenta corporativa para **atualizar datas em relatórios PDF técnicos**, pr
 git clone https://github.com/Tricoloreeu/AjusteRelatorioDatas.git
 cd AjusteRelatorioDatas
 pip install -r requirements.txt
+
+## 🖥️ 3. Execução via Python (modo desenvolvedor)
+
+Se você deseja rodar a ferramenta diretamente pelo script Python:
+
+1. Certifique-se de ter Python 3.9+ instalado  
+2. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+
